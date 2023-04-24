@@ -5,12 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\CleanArc.Contracts\CleanArc.Contracts.csproj" />
     <ProjectReference Include="..\CleanArc.Application\CleanArc.Application.csproj" />
