@@ -1,8 +1,11 @@
-using CleanArc.Application.Services.Authentication;
+using CleanArc.Application;
+using CleanArc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+    builder.Services
+    .AddApplication()
+    .AddInfrastructure();
     builder.Services.AddControllers();
 }
 
