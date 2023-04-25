@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CleanArc.Contracts\CleanArc.Contracts.csproj" />
     <ProjectReference Include="..\CleanArc.Application\CleanArc.Application.csproj" />
+    <ProjectReference Include="..\CleanArc.Infrastructure\CleanArc.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
