@@ -1,3 +1,5 @@
+using CleanArc.Application.Common.Interfaces.Authentication;
+using CleanArc.Infrastructure.Authentication;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArc.Infrastructure; 
@@ -6,6 +8,7 @@ namespace CleanArc.Infrastructure;
  {
      public static IServiceCollection AddInfrastructure(this IServiceCollection services)
      {
+        services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
         return services;
      }
  }

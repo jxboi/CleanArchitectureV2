@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <!-- <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="1.0.0" /> -->
+    <!-- <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="1.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.0.0" /> -->
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
